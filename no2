@@ -1,0 +1,32 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        int a = 4;
+        int b = 4;
+        for(int i = 0; i < 4; i++) {
+            for(int c = 4; c > i; c--) {
+                System.out.print(" ");
+            }
+            for(int d = 0; d < i; d++)
+            {
+                System.out.print(" *");
+            }
+            System.out.println("");
+        }
+        for(int j = 0; j < 4; j++)
+        {   for(int c = 0; c < j; c++)
+        {
+            System.out.print(" ");
+        }    for(int d = 4; d > j; d--)
+        {
+            System.out.print(" *");
+        }
+        System.out.println("");
+        }
+
+
+    }
+}
